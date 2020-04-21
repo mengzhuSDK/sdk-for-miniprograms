@@ -1,0 +1,15 @@
+<!--pages/index/index.wxml-->
+<view class="test-page">
+    <view>请输入直播id号（ticketId）：</view>
+    <input type="text" placeholder="默认为：00000000" class="test-inp" bindinput="ticketId" />
+    <view>请输入用户id（uniqueId）：</view>
+    <input type="text" placeholder="为空则默认为游客" class="test-inp" bindinput="uniqueId" />
+    <view>请输入用户昵称（nickName）：</view>
+    <input type="text" placeholder="为空则默认为游客" class="test-inp" bindinput="nickName" />
+    <view>请输入用户头像（avatarUrl）：</view>
+    <view class="info">*必须使用 https 开头</view>
+    <input type="text" placeholder="https://s1.zmengzhu.com/user/images/user-default-image.png" class="test-inp" bindinput="avatarUrl" />
+    <button open-type="getUserInfo" class="test-btn" type="primary" bindtap="toLive">
+        进入房间
+    </button>
+</view>

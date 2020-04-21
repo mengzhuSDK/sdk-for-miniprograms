@@ -1,0 +1,16 @@
+{
+  "usingComponents": {
+    "like-fx": "/component/likeFx/likeFx",
+    "anchor-info": "/component/anchorInfo/anchorInfo",
+    "quit-page": "/component/quitPage/quitPage",
+    "setting-info": "/component/settingInfo/settingInfo",
+    "goods-info": "/component/goodsInfo/goodsInfo",
+    "goods-info-popup": "/component/goodsInfoPopup/goodsInfoPopup",
+    "user-head-icon": "/component/userHeadIcon/userHeadIcon",
+    "quit-page-popup": "/component/quitPagePopup/quitPagePopup",
+    "over-live-state": "/component/overLiveState/overLiveState",
+    "end-live-state": "/component/endLiveState/endLiveState"
+  },
+  "enablePullDownRefresh": false,
+  "disableScroll":true
+}
